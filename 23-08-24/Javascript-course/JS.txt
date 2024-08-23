@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<style>
+			<script>
+				console.log("Welcome to the page");
+			<script>
+		</style>
+	</head>
+</html>
+
+<body>
+	<script>
+		var a=10;
+		var b=20;
+		var c=a+b;
+		console.log(c);
+	</script>
+</body>
+
+<html>
+<body>
+	<h1>Starting with innerHTML</h1>
+	<p id="Hello">Going to replace this sentence</p>
+	<script>
+		document.getElementById("Hello").innerHTML="Welcome to JS";	
+	</script>
+</body>
+</html>
+
+<body>
+	<script>
+		window.write("Hello");
+	</script>
+</body>
+
+<script>
+	<h3>Starting with window.print()</h3>
+	<button onclick="window.print()">Click here to print</button>
+</script>
+	
+<script>
+	let inp1=window.prompt("Enter you first num:");
+	let inp2=window.prompt("Enter your second num:");
+	let out=inp2+inp2;
+	window.alert("Answer is:" + out +"!");
+</script>
+ 	
+<script>
+	var inp1=10;
+	function myfun()
+	{
+		console.log(inp1)
+	}
+	fun();
+</script>
+
+//JS function
+
+function myFuncion(p1,p2)
+{
+	return p1*p2;
+}
+
+<script>
+	const a={type:"Fiat", model="500", color:"blue"};
+</scipt>
+
+//object literal name:value pair
+{fname:"Maya", lname:"Joe", age:"23"};
