@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>Form Validation Example</title>
+    		<link rel="stylesheet" href="style1.css"> 
+    
+	
+	</head>
+	<body>
+   		<div class="form-container">
+    			<form id="myForm">
+				<h2>Employee Registration Form</h2>
+        			<label for="name">Name:</label>
+        			<input type="text" id="name" name="name" required>
+        			<span class="error" id="nameError"></span>
+        			<br>
+
+        			<label for="email">Email:</label>
+        			<input type="text" id="email" name="email" required>
+        			<span class="error" id="emailError"></span>
+        			<br>
+
+        			<label for="password">Password:</label>
+        			<input type="password" id="password" name="password" required>
+        			<span class="error" id="passwordError"></span>
+        			<br>
+
+        			<label for="confirmPassword">Confirm Password:</label>
+        			<input type="password" id="confirmPassword" name="confirmPassword" required>
+        			<span class="error" id="confirmPasswordError"></span>
+        			<br>
+
+				<div class="radio-group">
+					<label for="ownerType">Owner Type:</label><br>
+					<label for="member">Member</label>
+            				<input type="radio" id="member" name="owner"><br>
+					<label for="employee">Employee</label>
+            				<input type="radio" id="employee" name="owner"><br>
+				</div>
+				<span id="ownerTypeError" class="error"></span>
+
+				<label for="Message">Message:</label>
+            			<textarea id="message" name="message"></textarea>
+            			<span id="messageError" class="error"></span>
+
+				<label for="startDate">Joined Date:</label>
+            			<input type="date" id="startDate" name="startDate">
+            			<span id="startDateError" class="error"></span>
+
+				<label for="file">Upload a File:</label>
+            			<input type="file" id="file" name="file" >
+            			<span id="fileError" class="error"></span>
+	
+				<button type="submit">Submit</button>
+    			</form>
+    		</div>
+    		<script src="javasc.js"></script>
+
+     
+	</body>
+</html>
