@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>Form Validation Example</title>
+    		<link rel="stylesheet" href="./css/style.css"> 
+    
+	
+	</head>
+	<body>
+		<div class="container">
+   		<div class="form-container">
+    			<form id="myForm">
+				<h2>EMPLOYEE REGISTRATION FORM</h2>
+        			<label for="name">Name:</label>
+        			<input type="text" id="name" name="name">
+        			<span class="error" id="nameError"></span>
+        			
+
+        			<label for="email">Email:</label>
+        			<input type="text" id="email" name="email" >
+        			<span class="error" id="emailError"></span>
+
+				<label for="phoneNumber">Phone Number:</label>
+        			<input type="tel" id="phoneNumber" name="phoneNumber">
+        			<span class="error" id="phoneNumberError"></span>
+
+        			<label for="password">Password:</label>
+        			<input type="password" id="password" name="password" >
+        			<span class="error" id="passwordError"></span>
+        			
+
+        			<label for="confirmPassword">Confirm Password:</label>
+        			<input type="password" id="confirmPassword" name="confirmPassword">
+        			<span class="error" id="confirmPasswordError"></span>
+        			
+
+				<label for="odeskProfile">ODesk Profile ID:</label>
+            			<input type="url" id="odeskProfile" name="odeskProfile" placeholder="https://www.odesk.com/jobs.Frontend-engineer" >
+            			<span id="odeskProfileError" class="error"></span>
+
+				<label for="supervisor">Number of Supervisor:</label>
+        			<input type="number" id="supervisor" name="supervisor" >
+        			<span class="error" id="supervisorError"></span>			
+	
+				<div class="radio-group">
+					<label for="ownerType">Owner Type:</label><br>
+					<label for="member">Member</label>
+            				<input type="radio" id="member" name="owner"><br>
+					<label for="employee">Employee</label>
+            				<input type="radio" id="employee" name="owner"><br>
+				</div>
+
+				<span id="ownerTypeError" class="error"></span>
+
+				<label for="Message">Message:</label>
+            			<textarea id="message" name="message"></textarea>
+            			<span id="messageError" class="error"></span>
+
+				<label for="startDate">Joined Date:</label>
+            			<input type="date" id="startDate" name="startDate">
+            			<span id="startDateError" class="error"></span>
+
+				<label for="file">Upload a File:</label>
+            			<input type="file" id="file" name="file" >
+            			<span id="fileError" class="error"></span>
+				
+				<label for="terms">
+            			<input type="checkbox" id="terms" name="terms">I accept the <a href="https://www.w3schools.com/html/" target="_blank">terms and conditions</a>.</label>
+        			<span id="termsError" class="error"></span>
+	
+				<button type="submit">Submit</button>
+    			</form>
+    		</div>
+    		
+		</div>
+     		<script src="./js/jQuery.js"></script>
+		<script src="./javasc.js"></script>
+	</body>
+</html>
