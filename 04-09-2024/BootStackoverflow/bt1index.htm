@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>User Jon Skeet</title>
+    		<!-- Bootstrap CSS -->
+    		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    		<link rel="stylesheet" href="./css/style.css">
+	
+		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+
+
+	</head>
+
+	<body>
+    		<!-- Navigation Bar -->
+    		<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        		<div class="container-fluid">
+            			<a class="navbar-brand d-flex align-items-center" href="#">
+                			<img src="./img/icon1.png" alt="Stack Overflow Logo" class="logo-img mr-1">
+                			<span>stack</span><span class="font-weight-bold">overflow</span>
+            			</a>
+            			<!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-				expanded="false" aria-label="Toggle navigation">
+                			<span class="navbar-toggler-icon"></span>
+            			</button> -->
+            			<div class="collapse navbar-collapse" id="navbarNav">
+                			<ul class="navbar-nav mr-auto">
+                    				<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    				<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    				<li class="nav-item"><a class="nav-link" href="#">OverflowAI</a></li>
+                			</ul>
+                			<form class="form-inline my-2 my-lg-0">
+    						<div class="input-group w-100 ">
+		
+							<span class="search-icon">
+                						<img src="./img/search.png" alt="Search Icon" class="search-icon">
+            						</span>
+							
+							<input class="search-bar" type="search" placeholder="User:22656" aria-label="Search">
+        						
+    						</div>
+					</form>
+
+                			<ul class="navbar-nav ml-auto">
+    						<li class="nav-item">
+        						<a href="#" class="nav-link custom-login-btn btn btn-outline-primary d-none d-md-block">Log in</a>
+    						</li>
+    						<li class="nav-item">
+        						<a href="#" class="btn btn-primary d-none d-md-block">Sign up</a>
+    						</li>
+					</ul>
+
+            			</div>
+        		</div>
+    		</nav>
+
+    		<!-- Main Content -->
+    		<div class="container-fluid mt-3">
+        		<div class="row">
+            		<!-- Sidebar -->
+            			<nav class="col-md-2 d-none d-md-block bg-white sidebar shadow-lg">
+                			<div class="sidebar-sticky">
+                    				<ul class="nav flex-column">
+                        				<li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                        				<li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-question"></i> Questions</a></li>
+                        				<li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-tag"></i> Tags</a></li>
+                        				<li class="nav-item font-weight-bold"><a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Users</a></li>
+                        				<li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-building"></i> Companies</a></li>
+                    				</ul>
+                    				<div class="labs mt-3">
+                        				
+                        				<ul class="nav flex-column">
+								<li class="navlabs font-weight-bold">LABS</li>
+                            					<li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-bag-shopping"></i> Jobs</a></li>
+                            					<li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-comment"></i> Discussions</a></li>
+                        				</ul>
+                    				</div>
+                    				<div class="collectives mt-3">
+                        				<h5>COLLECTIVES</h5>
+                        				<p class="favorite">Communities for your favorite technologies</p>
+                        				<p class="explore"><a href="#">Explore all Collectives</a></p>
+                    				</div>
+
+                    				<div class="teams mt-3">
+                        				<h5>TEAMS</h5>
+                        				<div class="d-flex align-items-center">
+                            					<img src="./img/icon1.png" alt="Stack Overflow Logo" class="logo-img mr-1">
+                            					<span class="font-weight-bold">overflowAI</span>
+                        				</div>
+                        				<div class="available mt-3">
+                            					<p><span class="font-weight-bold">Now available on Stack Overflow for Teams!</span> AI
+                                				features where you work: search, IDE, and chat.</p>
+                        				</div>
+                        				<div class="side-actions">
+                            					<button class="btn">Learn more</button>
+                        				</div>
+                        				<p class="explore mt-3"><a href="#">Explore Teams</a></p>
+                    				</div>
+                			</div>
+            			</nav>
+
+            			<!-- Profile Section -->
+            			<main class="col-md-9 ml-sm-auto col-lg-10 px-2">
+                			<div class="profile-header border-bottom">
+                    				<div class="d-flex align-items-center">
+                        				<div class="profile-img-container mr-4 shadow-sm">
+                            					<img src="./img/profileimg.png" alt="Profile Image" class="rounded " width="110" height="110">
+                        				</div>
+                        				<div class="profile-details">
+                            					<h1>Jon Skeet</h1>
+                            					<p><span><i class="fa-solid fa-cake-candles"></i></span> Member for 15 years, 11 months <span><i class="fa-solid fa-clock"></i></span> Last seen this week</p>
+                            					<p><span><i class="fa-brands fa-twitter"></i><span> <i class="fa-brands fa-github"></i></span></span><span> <i class="fa-solid fa-link"></i></span> csharpindepth.com <span> <i class="fa-solid fa-location-crosshairs"></i></span> Reading, United Kingdom</p>
+                        				</div>
+                        				<div class="ml-auto profile-dropdown">
+                            					<button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                                				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profiles</button>
+                            					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                					<a class="dropdown-item" href="#">Meta User</a>
+                                					<a class="dropdown-item" href="#">Network Profile</a>
+                            					</div>
+                        				</div>
+                    				</div>
+					</div>
+                			<div class="profile-actions mt-3">
+                    				<button class="btn btn-warning active">Profile</button>
+                    				<button class="btn btn-outline-dark">Activity</button>
+                			</div>
+            			</main>
+        		</div>
+    		</div>
+
+    
+    		<script src="./js/bootstrap.min.js"></script>
+	</body>
+
+</html>

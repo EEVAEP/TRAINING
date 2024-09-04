@@ -1,0 +1,178 @@
+body {
+	font-family: Arial, sans-serif;
+    	background-color: #f8f9fa;
+}
+
+.navbar .logo-img {
+	height: 26px;
+}
+
+.navbar .nav-link {
+	font-size:14px;
+}
+.sidebar {
+    	width: 200px;
+    	background-color: #ffffff;
+    	padding: 20px;
+	margin-bottom:600px;
+    	border-right: 1px solid #ddd;
+    	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    	height: calc(101vh - 1px); 
+    	overflow-y: auto; 
+    	overflow-x: hidden; 
+}
+.search-bar {
+	padding: 8px 8px 8px 32px;
+    	border: 1px solid #666666;
+    	border-radius: 5px;
+    	font-size: 12px;
+    	width:500px;
+}
+
+.search-icon {
+   
+	position: absolute;
+    	top: 20%;
+    	left: 5px;
+    	background-color:none;
+    	width: 15px;
+    	height: 15px;
+}
+
+.navbar .custom-login-btn {
+    	background-color: white;
+    	color: white;
+    	border: 1px solid #1B75D0;
+    	border-radius: 5px;
+    	padding: 5px 5px;
+    	transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbar .btn-primary {
+	margin-left:20px;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+
+.custom-login-btn:hover {
+    	background-color: #1B75D0; 
+    	color: white;
+    	text-decoration: none;
+}
+
+.sidebar .nav-link {
+    	color: #333333;
+    	font-size: 14px;
+}
+.navlabs {
+	font-size:12px;
+	padding-left:16px;
+}
+
+.sidebar .nav-link:hover {
+    	color: #f48024;
+}
+
+.sidebar .labs, .sidebar .collectives {
+   	margin-top: 20px;
+}
+.sidebar .collectives h5 {
+   	font-size: 12px;
+	font-weight:bold;
+	padding-left:16px;
+}
+
+.sidebar .collectives .favorite {
+	padding-left:16px;
+	margin-top: 1px;
+	font-size:12px;
+	margin-bottom:2px;
+	color: #333333;
+}
+
+.sidebar .collectives .explore {
+	font-size:12px;
+	color:black;
+	margin-bottom:20px;
+	padding-left:16px;
+}
+.sidebar .teams h5 {
+	font-size: 12px;
+	font-weight:bold;
+	padding-left:16px;
+}
+
+.sidebar .teams .available {
+	font-size: 12px;
+	
+	padding-left:16px;
+}
+.sidebar .teams .side-actions .btn {
+	border-radius:25px;
+	background-color:#E7700D;
+	color:white;
+	margin-left:16px;
+}
+
+.sidebar .teams .explore {
+	font-size: 14px;
+	color:black;
+	padding-left:16px;
+}
+
+
+
+.profile-header h1 {
+    	font-size: 40px;
+}
+
+.profile-header p {
+    	color: #666666;
+    	font-size: 14px;
+}
+
+
+
+.profile-actions .btn {
+    border-radius: 25px;
+}
+
+.profile-actions .btn.active {
+    background-color: #E7700D;
+    color: #ffffff;
+    
+}
+
+.profile-header #dropdownMenuButton {
+    	background-color: white;
+    	border: 1px solid;
+    	border-color: #0C0D0E;
+    	padding: 8px 8px;
+    	font-size: 14px;
+    	color: black;
+    	border-radius: 5px;
+    	cursor: pointer;
+}
+
+.dropdown-menu {
+    	position: absolute;
+    	right: 0;
+    	background-color: #ffffff;
+    	min-width: 160px;
+    	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    	z-index: 1;
+}
+
+.dropdown-menu a {
+    	color: black;
+    	padding: 12px 16px;
+    	text-decoration: none;
+    	display: block;
+}
+.dropdown-menu a:hover {
+    	background-color: #f1f1f1;
+}
+
+ 
+.dropdown-menu:hover .dropdown-content {
+    	display: block;
+}
