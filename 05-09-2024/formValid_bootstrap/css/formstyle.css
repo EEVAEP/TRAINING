@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+    	background-color:#28a745;
+	margin:0;
+    
+}
+
+.container {
+	padding:100px;
+	height: 1500px;
+	display: flex;
+    	justify-content: center;
+    	align-items: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    margin-top: 30px;
+	margin-bottom:20px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
