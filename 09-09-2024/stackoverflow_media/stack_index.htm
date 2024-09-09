@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>User Jon Skeet</title>
+    		<link rel="stylesheet" href="./css/stack_style.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+		
+		<script src="script.js"></script>
+		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+	
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+    		<header>
+        		<nav class="navbar">
+				
+            			<div class="logo">
+					<button class="openbn" onclick="openNav()">&#9776;</button>
+	    				<img src="./img/icon1.png" alt="Stack Overflow Logo" class="logo-img">
+            				<span>stack</span><span>overflow</span>
+	    			</div>
+            			<div class="nav-links">
+                			<a href="#">About</a>
+                			<a href="#">Products</a>
+                			<a href="#">OverflowAI</a>
+					
+            			</div>
+	    			<div class="search-bar">
+                			<input type="text" placeholder="User:22656">
+					<span class="search-icon"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+					
+                
+            			</div>
+	
+            			<div class="nav-auth">
+                			<a href="#" class="login">Log in</a>
+                			<a href="#" class="sign-up">Sign up</a>
+					
+            			</div>
+        		</nav>
+    		</header>
+
+    		<!-- Main Content -->
+    		<div class="main-content">
+        		<!-- Sidebar -->
+        		<aside class="sidebar" id="mySidebar">
+				  <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+            			<ul>
+                			<li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                			<li><a href="#"><i class="fa-solid fa-question"></i> Questions</a></li>
+                			<li><a href="#"><i class="fa-solid fa-tag"></i> Tags</a></li>
+                			<li class="user"><a href="#"><i class="fa-solid fa-user"></i> Users</a></li>
+                			<li><a href="#"><i class="fa-solid fa-building"></i> Companies</a></li>
+            			</ul>
+				
+            			<div class="labs">
+                			<h3>LABS</h3>
+                			<ul>
+                    				<li><a href="#"><i class="fa-solid fa-bag-shopping"></i> Jobs</a></li>
+                    				<li><a href="#"><i class="fa-solid fa-comment"></i> Discussions</a></li>
+                			</ul>
+            			</div>
+			
+            			<div class="collectives">
+                			<h3>COLLECTIVES</h3>
+					<p>Communities for your favorite technologies</p>
+                			<p class="explore"><a href="#">Explore all Collectives</a></p>
+            			</div>
+				<div class="teams">
+					<h5>TEAMS</h5>
+				<div class="secondlogo">
+	    				<img src="./img/icon1.png" alt="Stack Overflow Logo" class="logo-img">
+            				<span >overflow</span><span>AI</span>
+	    			</div>
+				
+			
+				<div class=bottomdiv>
+					<p><span>Now available on Stack Overflow for Teams!</span>AI features where you work: search, IDE, and chat.<p>
+				</div>
+	
+				<div class="side-actions">
+                			<button class="profile-btn active">Learn more</button>
+                		
+            			</div>
+				<div class="explore">
+					<p> Explore Teams<p>
+				</div>
+        		</aside>
+
+        		<!-- Profile Section -->
+        		<section class="profile-section">
+
+				<div class="profile-dropdown">
+            					<button class="profile-btn dropdown-btn">Profiles▼</button>
+            					<div class="dropdown-content">
+                					<a href="#">Meta User</a>
+                					<a href="#">Network Profile</a>
+                				
+            					</div>
+        			</div>
+            			<div class="profile-header">
+				
+					<div class="profile-img-container">
+                				<img src="./img/profileimg.png" alt="Profile Image" class="profile-img">
+					</div>
+                			<div class="profile-details">
+                    				<h1>Jon Skeet</h1>
+                    				<p><span><i class="fa-solid fa-cake-candles"></i></span>Member for 15 years, 11 months <span><i class="fa-solid fa-clock"></i></span> Last seen this week</p>
+                    				<p><span><i class="fa-brands fa-twitter"></i><span><i class="fa-brands fa-github"></i></span><i class="fa-solid fa-link"></i></span>csharpindepth.com<span><i class="fa-solid fa-location-crosshairs"></i></span>Reading, United Kingdom</p>
+                			</div>
+					
+				
+            			</div>
+
+            			<div class="profile-actions">
+                			<button class="profile-btn active">Profile</button>
+                			<button class="profile-btn">Activity</button>
+
+				
+            			</div>
+				<div class="stats-about">
+    					<div class="left-column">
+        					<h2 class="hd">Stats</h2>
+        					<div class="profile-stats">
+            						<div class="stat">
+                						<p>1,479,058</p>
+                						<p>reputation</p>
+            						</div>
+            						<div class="stat">
+                						<p>411.5m</p>
+                						<p>reached</p>
+            						</div>
+            						<div class="stat">
+                						<p>35,735</p>
+                						<p>answers</p>
+            						</div>
+            						<div class="stat">
+                						<p>55</p>
+                						<p>questions</p>
+            						</div>
+            						<div class="stat">
+                						<p>#1</p>
+                						<p>this month</p>
+            						</div>
+        					</div>
+        					<h3>Collectives</h3>
+        					<div class="collect">
+            						<ul>
+                						<li>Google Cloud</li>
+                						<li>2021<span>.<span>Member</li>
+            						</ul>
+        					</div>
+    					</div>
+    
+    					<div class="right-column">
+        					<h2>About</h2>
+        					<div class="about-section">
+            						<p>Author of <a href="#">C# in Depth</a></p>
+            						<p>Currently a software engineer at Google, working remotely but near London.<p>
+            						<p>Usually a Microsoft MVP (C#, 2003-2010, 2011-)</p>
+            						<p>Sites / social:</p>
+            						<ul>
+                						<li><p>Mastodon:<a href="#" >@jonskeet@hachyderm.io</a></p></a></li>
+                						<li><a href="#">C# in Depth</a></li>
+                						<li><a href="#">Coding blog</a></li>
+                						<li><a href="#">C# articles</a></li>
+                						<li><p>Twitter <a href="#">@jonskeet</a><p></li>
+            						</ul>
+        					</div>
+    					</div>
+				</div>
+
+	    
+	  		</section>
+    		</div>
+	</body>
+</html>
