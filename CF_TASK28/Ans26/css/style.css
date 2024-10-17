@@ -1,0 +1,10 @@
+.tag {
+	display: inline-block;
+        margin: 5px;
+        			
+}
+
+li {
+	font-size:20px;
+	line-height:1.8;
+}
